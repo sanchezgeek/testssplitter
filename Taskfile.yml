@@ -1,0 +1,8 @@
+---
+version: '2'
+
+tasks:
+  build:
+    cmds:
+    - docker build -t reg.bigln.ru/tests-splitter ./build
+    - docker push reg.bigln.ru/tests-splitter
